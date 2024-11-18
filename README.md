@@ -11,11 +11,17 @@ This repository contains scripts and configuration files to set up a development
 ### Installation
 
 1. Clone the repository to your local machine:
-````git clone https://github.com/CoreyMSchafer/dotfiles.git ~/dotfiles````
-2. Navigate to the dotfiles directory:
-```cd ~/dotfiles```
-3. Run the installation script:
-```./install.sh```
+````
+git clone https://github.com/CoreyMSchafer/dotfiles.git ~/dotfiles
+````
+3. Navigate to the dotfiles directory:
+```
+cd ~/dotfiles
+```
+5. Run the installation script:
+```
+./install.sh
+```
 
 ## Acknowledgments
 
