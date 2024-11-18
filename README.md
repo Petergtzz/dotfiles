@@ -4,7 +4,8 @@ This repository contains scripts and configuration files to set up a development
 
 ## Getting Started
 
-### Prerequisites
+
+### Prerequsites
 
 - macOS (The scripts are tailored for macOS)
 
@@ -14,14 +15,20 @@ This repository contains scripts and configuration files to set up a development
 ````
 git clone https://github.com/CoreyMSchafer/dotfiles.git ~/dotfiles
 ````
-3. Navigate to the dotfiles directory:
+2. Navigate to the dotfiles directory:
 ```
 cd ~/dotfiles
 ```
-5. Run the installation script:
+3. Run the installation script:
 ```
 ./install.sh
 ```
+
+This script will:
+
+- Create symlinks for dotfiles (.zshrc, etc.)
+- Run macOS-specific configurations
+- Install Homebrew packages and casks
 
 ## Acknowledgments
 
