@@ -1,0 +1,10 @@
+# Compiled C/C++ files
+*/*
+
+# Folder view configuration files
+.DS_Store
+
+# Private Information
+.gitconfig
+
+
