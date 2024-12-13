@@ -10,7 +10,7 @@
 dotfilesdir="${HOME}/dotfiles"
 
 # list of files/folder to symlink in ${homedir}
-files=(zshrc zprofile .config)
+files=(zshrc zprofile config)
 
 # change to the dotfiles directory
 echo "Changing to $dotfilesdir directory"
