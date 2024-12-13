@@ -27,11 +27,9 @@ brew upgrade
 brew upgrade --cask
 brew cleanup
 
-# Define an array of packages to isntall using Homebrew
+# Define an array of packages to install using Homebrew
 packages=(
     "python"
-    "tcl-tk"
-    "bash"
     "zsh"
     "git"
     "tree"
@@ -76,11 +74,10 @@ fi
 # Define an array of applications to install using Homebrew Cask.
 apps=(
     "spotify"
-    "discord"
-    "rectangle"
     "binary ninja"
     "zoom"
     "clion"
+    "wezterm"
 )
 
 # Loop over the array to install each application.
@@ -98,6 +95,4 @@ brew update
 brew upgrade
 brew upgrade --cask
 brew cleanup
-
-
 

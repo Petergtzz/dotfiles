@@ -10,7 +10,7 @@
 dotfilesdir="${HOME}/dotfiles"
 
 # list of files/folder to symlink in ${homedir}
-files=(zshrc zprofile)
+files=(zshrc zprofile .config)
 
 # change to the dotfiles directory
 echo "Changing to $dotfilesdir directory"
@@ -19,11 +19,11 @@ cd "${dotfilesdir}" || exit
 # create symlinks (will overwrite old dotfiles)
 for file in "${files[@]}"; do
     echo "Creating symlink to $file in home directory."
-    ln -sf "${dotfiledir}/.${file}" "${HOME}/.${file}"
+    ln -sf "${dotfilesdir}/.${file}" "${HOME}/.${file}"
 done
 
 # Run the MacOs Script
-# ./macOS.sh
+./macOS.sh
 
 # Run the Homebrew Script
-# ./brew.sh
+./brew.sh
