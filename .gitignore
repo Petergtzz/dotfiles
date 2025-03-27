@@ -3,6 +3,10 @@
 
 # Folder view configuration files
 .DS_Store
+.idea
+
+# Python executables
+__pycache__
 
 # Private Information
 .gitconfig
