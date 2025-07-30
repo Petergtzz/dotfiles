@@ -77,7 +77,10 @@ apps=(
     "binary ninja"
     "zoom"
     "clion"
-    "wezterm"
+    "ghostty"
+    "table plus"
+    "raycast"
+    "excel"
 )
 
 # Loop over the array to install each application.
