@@ -29,8 +29,8 @@ keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Go to next tab" }) --  
 keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" }) --  go to previous tab
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" }) --  move current buffer to new tab
 
-keymap.set("n", "<leader>r", "<C-w>l", { desc = "Move to right window"})
-keymap.set("n", "<leader>l", "<C-w>h", { desc = "Move to left window"})
+keymap.set("n", "<leader>]", "<C-w>l", { desc = "Move to right window"})
+keymap.set("n", "<leader>[", "<C-w>h", { desc = "Move to left window"})
 
 keymap.set("n", "<leader>q", ":quit<CR>", { desc = "Quit window"})
 keymap.set("n", "<leader>o", ":update<CR> :source<CR>", { desc = "Update and source at the same time"})
